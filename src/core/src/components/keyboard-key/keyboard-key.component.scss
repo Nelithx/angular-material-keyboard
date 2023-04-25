@@ -1,7 +1,7 @@
 @use '@angular/material' as mat;
 @import '@angular/material/theming';
 
-$mat-typography-config: mat.define-typography-config();
+$mat-typography-config: mat.define-legacy-typography-config();
 $mat-keyboard-button-distance: 8px !default;
 $mat-keyboard-capslock-animation-duration: $backdrop-animation-duration !default;
 $mat-keyboard-capslock-animation-timing-function: $backdrop-animation-timing-function !default;

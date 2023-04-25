@@ -121,6 +121,12 @@
     },
     "@schematics/angular:directive": {
       "prefix": "mat-keyboard-demo"
+    },
+    "@angular-eslint/schematics:application": {
+      "setParserOptionsProject": true
+    },
+    "@angular-eslint/schematics:library": {
+      "setParserOptionsProject": true
     }
   }
 }
