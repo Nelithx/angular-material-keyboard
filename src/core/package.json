@@ -1,7 +1,6 @@
 {
-  "$schema": "../../node_modules/ng-packagr/package.schema.json",
   "name": "angular-onscreen-material-keyboard",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "This package is forked from ngx-material-keyboard with bug fixes and additional features",
   "repository": {
     "type": "git",
@@ -17,29 +16,18 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/animations": "^15.0.0",
-    "@angular/cdk": "^15.0.0",
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
-    "@angular/forms": "^15.0.0",
-    "@angular/material": "^15.0.0",
+    "@angular/animations": "^14.0.0 || ^15.0.0",
+    "@angular/cdk": "^14.0.0 || ^15.0.0",
+    "@angular/common": "^14.0.0 || ^15.0.0",
+    "@angular/core": "^14.0.0 || ^15.0.0",
+    "@angular/forms": "^14.0.0 || ^15.0.0",
+    "@angular/material": "^14.0.0 || ^15.0.0",
     "rxjs": "^6.6.6"
-  },
-  "ngPackage": {
-    "dest": "../../dist/core",
-    "lib": {
-      "entryFile": "src/public_api.ts"
-    }
   },
   "keywords": [
     "angular",
-    "angular11",
-    "ng11",
-    "angular12",
-    "angular13",
     "angular14",
     "angular15",
-    "ng12",
     "material",
     "keyboard",
     "onscreen",
