@@ -6,8 +6,8 @@
     "outDir": "./dist/out-tsc",
     "baseUrl": "./",
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    "declaration": false,
+    "declarationMap": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -32,7 +32,8 @@
       "@angular-material-keyboard": [
         "./src/core/src/public_api.ts",
       ]
-    }
+    },
+    "compilationMode":"partial"
   },
   "exclude": [
     ".ng_build"

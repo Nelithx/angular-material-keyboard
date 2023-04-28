@@ -12,7 +12,7 @@ Generated documentation can be found [here][docs].
 
 ## Getting started
 1. Install with your prefered packet manager (we're using `npm` here):
-`npm install --save @angular-material-keyboard`
+`npm install --save @nelith/angular-material-keyboard`
 > Be sure to fulfill the peer dependencies of this module, in particular [Angular] and [Angular Material].
 
 2. Add the module to your project, e.g. `app.module.ts`:

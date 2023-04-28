@@ -1,6 +1,6 @@
 {
-  "name": "angular-material-keyboard",
-  "version": "0.7.0",
+  "name": "@nelith/angular-material-keyboard",
+  "version": "0.7.2",
   "description": "This package is forked from ngx-material-keyboard with bug fixes and additional features.",
   "repository": {
     "type": "git",
@@ -51,7 +51,7 @@
     "karma-webpack": "^5.0.0",
     "node": "16.20",
     "reset-css": "^5.0.1",
-    "rxjs": "^6.6.6",
+    "rxjs": "^7.8.1",
     "tslib": "^2.5.0",
     "webpack": "^5.80.0",
     "webpack-dev-server": "^4.13.3",
@@ -89,5 +89,6 @@
     "onscreen",
     "typescript",
     "ngx"
-  ]
+  ],
+  "main": ".eslintrc.js"
 }
