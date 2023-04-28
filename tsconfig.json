@@ -6,8 +6,8 @@
     "outDir": "./dist/out-tsc",
     "baseUrl": "./",
     "sourceMap": true,
-    "declaration": false,
-    "declarationMap": false,
+    "declaration": true,
+    "declarationMap": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -25,15 +25,14 @@
         "src/core/src/public_api.ts",
       ]
     },
-    "module": "ES2020"    
+    "module": "ES2020"
   },
   "angularCompilerOptions": {
     "paths": {
       "@angular-material-keyboard": [
         "./src/core/src/public_api.ts",
       ]
-    },
-    "compilationMode":"partial"
+    }
   },
   "exclude": [
     ".ng_build"
