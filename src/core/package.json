@@ -1,33 +1,33 @@
 {
-  "name": "angular-onscreen-material-keyboard",
+  "name": "angular-material-keyboard",
   "version": "0.7.0",
-  "description": "This package is forked from ngx-material-keyboard with bug fixes and additional features",
+  "description": "This package is forked from angular-onscreen-material-keyboard with bug fixes and additional features",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Iris0905/angular-onscreen-material-keyboard.git"
+    "url": "git+https://github.com/Nelithx/angular-material-keyboard.git"
   },
   "author": "Iris X, Daniel M, Kenneth A",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Iris0905/angular-onscreen-material-keyboard/issues"
+    "url": "https://github.com/Nelithx/angular-material-keyboard/issues"
   },
-  "homepage": "https://github.com/Iris0905/angular-onscreen-material-keyboard",
+  "homepage": "https://github.com/Nelithx/angular-material-keyboard",
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/animations": "^14.0.0 || ^15.0.0",
-    "@angular/cdk": "^14.0.0 || ^15.0.0",
-    "@angular/common": "^14.0.0 || ^15.0.0",
-    "@angular/core": "^14.0.0 || ^15.0.0",
-    "@angular/forms": "^14.0.0 || ^15.0.0",
-    "@angular/material": "^14.0.0 || ^15.0.0",
+    "@angular/animations": "^15.0.0",
+    "@angular/cdk": "^15.0.0",
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "@angular/forms": "^15.0.0",
+    "@angular/material": "^15.0.0",
     "rxjs": "^6.6.6"
   },
   "keywords": [
     "angular",
-    "angular14",
     "angular15",
+    "ng15",
     "material",
     "keyboard",
     "onscreen",

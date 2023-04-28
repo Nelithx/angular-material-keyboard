@@ -1,23 +1,23 @@
 {
-  "name": "angular-onscreen-material-keyboard",
-  "version": "0.6.0",
+  "name": "angular-material-keyboard",
+  "version": "0.7.0",
   "description": "This package is forked from ngx-material-keyboard with bug fixes and additional features.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular-onscreen-material-keyboard.git"
+    "url": "git+https://github.com/Nelithx/angular-material-keyboard.git"
   },
-  "author": "Iris X, Daniel M, Kenneth A",
+  "author": "Nelithx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angular-onscreen-material-keyboard/issues"
+    "url": "https://github.com/Nelithx/angular-material-keyboard/issues"
   },
-  "homepage": "https://github.com/angular-onscreen-material-keyboard",
+  "homepage": "https://github.com/Nelithx/angular-material-keyboard",
   "scripts": {
     "ng": "ng",
     "start": "npm run start:demo",
     "start:demo": "ng serve --host 0.0.0.0 --disable-host-check",
     "build": "npm run build:core && npm run build:demo && npm run build:docs",
-    "build:core": "ng-packagr -p ./src/core/ng-package.json --config src/core/tsconfig.json && cpx -p README.md dist/core",
+    "build:core": "ng-packagr -p ./src/core/ng-package.json --config ./tsconfig.json && cpx -p README.md dist/core",
     "build:demo": "ng build --configuration production --progress=false --base-href=/demo/",
     "build:docs": "compodoc ./src/core -p ./tsconfig.json --silent --disableCoverage --disablePrivate --disableInternal --theme readthedocs --output ./dist/docs",
     "test": "ng test",
@@ -82,11 +82,8 @@
   },
   "keywords": [
     "angular",
-    "angular11",
-    "angular12",
-    "angular13",
-    "angular14",
     "angular15",
+    "ng15",
     "material",
     "keyboard",
     "onscreen",
